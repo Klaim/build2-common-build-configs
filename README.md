@@ -16,8 +16,10 @@ If you have suggestions, feel free to create new tickets to this project so we c
 
 # Usage
 
-When creating a configuration (through `bdep init -C ...` or `bdep config create ..` for example)
+Before creating a configuration:
 
+1. Acquire the config files you need from this repository (through copy or git-submodule)
+2. Add `config.config.load=<path/to/config-file>` to your build configuration creation command (either `bdep init -C ...` or `bdep config create ..` or `bpk create ...`)
 
 
 # Development
