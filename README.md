@@ -3,6 +3,8 @@ Common Build Configurations for `build2`
 
 This repository provides **commonly used build configuration descriptions for `build2`** users. For example: "debug" and "release" configs for MSVC, Clang and GCC toolchains.
 
+If you are familiar with CMake, those configuration files are equivalent to toolchain files in CMake, in addition to the default configuration modes provided by it.
+
 Currently [`build2` does not provide yet any default ***high-level configurations*** like "debug" or "release" although it is in the plans](https://github.com/build2/build2/issues/11). Meanwhile this repository provides `build2` users a quick way to get the common set of build configurations ready without having to re-write them all the time.
 
 This is also the starting point for gathering data on a potential future integration into `build2` itself (or at least [help the effort to add default configurations by default into `build2`](https://github.com/build2/build2/issues/11)).
