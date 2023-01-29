@@ -20,10 +20,12 @@ Before creating a configuration:
 
 1. Acquire the config files you need from this repository (through copy or git-submodule)
 2. Add `config.config.load=<path/to/config-file>` to your build configuration creation command (either `bdep init -C ...` or `bdep config create ..` or `bpk create ...`)
+    - Note that you can still add other config variables and files to override or add to the ones set in the configs. For example if you use `config.config.load=clang-debug.build` but you want specifically to use `clang-10++` instead of whatever version `clang++`, add `config.cxx=clang-10++` to that command line to override that variable. To add to a variable use `+=` to append, `=+` to prepend.
 
 
 # Development
 
 This repository is tested by the CI of ADD-OTHER-PROJECT-HERE-WITH-A-LINK
 
+Check ./TODO.md for a list of things missing and/or that need some thoughts.
 
