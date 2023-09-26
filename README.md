@@ -1,3 +1,5 @@
+## WARNING: This is not maintained, does not work well and for now I consider is a failed experiment. However it's informative so I keep it around as reference. Do not use it if you don't know what you are doing.#
+
 Common Build Configurations for `build2` 
 =======================================
 
